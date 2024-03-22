@@ -1,0 +1,483 @@
+[debug] [2024-03-04T03:07:17.439Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T03:07:17.443Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\bytes corner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-04T03:07:17.444Z] CLI Version:   13.4.0
+[debug] [2024-03-04T03:07:17.444Z] Platform:      win32
+[debug] [2024-03-04T03:07:17.444Z] Node Version:  v20.11.0
+[debug] [2024-03-04T03:07:17.445Z] Time:          Mon Mar 04 2024 08:37:17 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T03:07:17.445Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T03:07:17.628Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T03:07:17.629Z] > authorizing via signed-in user (thisurathemiya@gmail.com)
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-04T03:07:17.644Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T03:07:17.644Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T03:07:17.644Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hospital-management-5a1db. This may result in unexpected behavior. 
+[debug] [2024-03-04T03:07:17.652Z] [hub] writing locator at C:\Users\BYTESC~1\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[debug] [2024-03-04T03:07:27.482Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-04T03:07:27.483Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-04T03:07:27.483Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\bytes corner\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\bytes corner\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-04T03:07:28.572Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-03-04T03:07:28.572Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-04T03:29:19.602Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T03:29:19.606Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\bytes corner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-04T03:29:19.606Z] CLI Version:   13.4.0
+[debug] [2024-03-04T03:29:19.607Z] Platform:      win32
+[debug] [2024-03-04T03:29:19.607Z] Node Version:  v20.11.0
+[debug] [2024-03-04T03:29:19.607Z] Time:          Mon Mar 04 2024 08:59:19 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T03:29:19.607Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T03:29:19.799Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T03:29:19.799Z] > authorizing via signed-in user (thisurathemiya@gmail.com)
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-04T03:29:19.820Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T03:29:19.820Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2024-03-04T03:29:19.822Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hospital-management-5a1db. This may result in unexpected behavior. 
+[debug] [2024-03-04T03:29:19.834Z] [hub] writing locator at C:\Users\BYTESC~1\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[debug] [2024-03-04T03:29:30.190Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-04T03:29:30.191Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-04T03:29:30.191Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\bytes corner\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\bytes corner\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-04T03:29:30.942Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2024-03-04T03:29:30.942Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4001/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-04T04:59:00.216Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T04:59:00.221Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\bytes corner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-04T04:59:00.222Z] CLI Version:   13.4.0
+[debug] [2024-03-04T04:59:00.222Z] Platform:      win32
+[debug] [2024-03-04T04:59:00.222Z] Node Version:  v20.11.0
+[debug] [2024-03-04T04:59:00.223Z] Time:          Mon Mar 04 2024 10:29:00 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T04:59:00.223Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T04:59:00.227Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-03-04T04:59:00.407Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T04:59:00.408Z] > authorizing via signed-in user (thisurathemiya@gmail.com)
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-04T04:59:00.422Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T04:59:00.422Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2024-03-04T04:59:00.425Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hospital-management-5a1db. This may result in unexpected behavior. 
+[debug] [2024-03-04T04:59:00.432Z] [hub] writing locator at C:\Users\BYTESC~1\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[debug] [2024-03-04T04:59:10.093Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-04T04:59:10.095Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-04T04:59:10.095Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\bytes corner\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\bytes corner\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-04T04:59:10.994Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-03-04T04:59:10.994Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-03-04T04:59:11.177Z] Web / API server started at 127.0.0.1:4002
+Web / API server started at ::1:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4002\nWeb / API server started at ::1:4002\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4002/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4002/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-04T05:19:17.916Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T05:19:17.920Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\bytes corner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-04T05:19:17.921Z] CLI Version:   13.4.0
+[debug] [2024-03-04T05:19:17.921Z] Platform:      win32
+[debug] [2024-03-04T05:19:17.921Z] Node Version:  v20.11.0
+[debug] [2024-03-04T05:19:17.922Z] Time:          Mon Mar 04 2024 10:49:17 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T05:19:17.922Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T05:19:18.104Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T05:19:18.104Z] > authorizing via signed-in user (thisurathemiya@gmail.com)
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-04T05:19:18.118Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T05:19:18.119Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4003 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4003 instead."}}
+[debug] [2024-03-04T05:19:18.122Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4003},{"address":"::1","family":"IPv6","port":4003}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hospital-management-5a1db. This may result in unexpected behavior. 
+[debug] [2024-03-04T05:19:18.129Z] [hub] writing locator at C:\Users\BYTESC~1\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[debug] [2024-03-04T05:19:27.612Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-04T05:19:27.613Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-04T05:19:27.613Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\bytes corner\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\bytes corner\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-04T05:19:28.315Z] Web / API server started at 127.0.0.1:4003
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4003\n"}}
+[debug] [2024-03-04T05:19:28.315Z] Web / API server started at ::1:4003
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4003\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4003/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4003/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-04T05:25:24.037Z] Received signal SIGHUP 1
+[debug] [2024-03-04T06:38:51.523Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T06:38:51.526Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hoshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-04T06:38:51.527Z] CLI Version:   13.4.0
+[debug] [2024-03-04T06:38:51.527Z] Platform:      win32
+[debug] [2024-03-04T06:38:51.527Z] Node Version:  v20.11.0
+[debug] [2024-03-04T06:38:51.528Z] Time:          Mon Mar 04 2024 12:08:51 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T06:38:51.528Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T06:38:51.531Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-03-04T06:38:51.706Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] Failed to authenticate, have you run firebase login?
+[warn] !  emulators: You are not currently authenticated so some features may not work correctly. Please run firebase login to authenticate the CLI. 
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-04T06:38:51.827Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T06:38:51.828Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T06:38:51.829Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-03-04T06:38:51.837Z] [hub] writing locator at C:\Users\hoshi\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[info] i  ui: downloading ui-v1.11.7.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.7.zip..."}}
+[debug] [2024-03-04T06:39:00.943Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.7.zip 
+[debug] [2024-03-04T06:39:01.557Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.7.zip 200
+[debug] [2024-03-04T06:39:01.557Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.7.zip [stream]
+[debug] [2024-03-04T06:39:01.702Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-03-04T06:39:01.702Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-03-04T06:39:06.543Z] Data is 3064105
+[debug] [2024-03-04T06:39:06.544Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-03-04T06:39:06.544Z] [unzip] Processing entry: client\
+[debug] [2024-03-04T06:39:06.544Z] [unzip] mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\
+[debug] [2024-03-04T06:39:06.545Z] [unzip] Entry: client/favicon.ico (compressed_size=2497 bytes, uncompressed_size=7406 bytes)
+[debug] [2024-03-04T06:39:06.546Z] [unzip] Processing entry: client\favicon.ico
+[debug] [2024-03-04T06:39:06.546Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.547Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\favicon.ico
+[debug] [2024-03-04T06:39:06.555Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=7231 bytes, uncompressed_size=7367 bytes)
+[debug] [2024-03-04T06:39:06.555Z] [unzip] Processing entry: client\apple-touch-icon.png
+[debug] [2024-03-04T06:39:06.555Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.556Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\apple-touch-icon.png
+[debug] [2024-03-04T06:39:06.558Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=16987 bytes, uncompressed_size=18186 bytes)
+[debug] [2024-03-04T06:39:06.558Z] [unzip] Processing entry: client\android-chrome-512x512.png
+[debug] [2024-03-04T06:39:06.558Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.559Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\android-chrome-512x512.png
+[debug] [2024-03-04T06:39:06.561Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-03-04T06:39:06.561Z] [unzip] Processing entry: client\assets\
+[debug] [2024-03-04T06:39:06.561Z] [unzip] mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\
+[debug] [2024-03-04T06:39:06.563Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-03-04T06:39:06.563Z] [unzip] Processing entry: client\assets\extensions\
+[debug] [2024-03-04T06:39:06.564Z] [unzip] mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\extensions\
+[debug] [2024-03-04T06:39:06.564Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2024-03-04T06:39:06.565Z] [unzip] Processing entry: client\assets\extensions\default-extension.png
+[debug] [2024-03-04T06:39:06.565Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\extensions
+[debug] [2024-03-04T06:39:06.565Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\extensions\default-extension.png
+[debug] [2024-03-04T06:39:06.567Z] [unzip] Entry: client/assets/index.58ca09f7.css (compressed_size=37601 bytes, uncompressed_size=321252 bytes)
+[debug] [2024-03-04T06:39:06.567Z] [unzip] Processing entry: client\assets\index.58ca09f7.css
+[debug] [2024-03-04T06:39:06.567Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets
+[debug] [2024-03-04T06:39:06.568Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\index.58ca09f7.css
+[debug] [2024-03-04T06:39:06.573Z] [unzip] Entry: client/assets/index.c2583d42.js (compressed_size=526232 bytes, uncompressed_size=1860152 bytes)
+[debug] [2024-03-04T06:39:06.573Z] [unzip] Processing entry: client\assets\index.c2583d42.js
+[debug] [2024-03-04T06:39:06.573Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets
+[debug] [2024-03-04T06:39:06.574Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\index.c2583d42.js
+[debug] [2024-03-04T06:39:06.587Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-03-04T06:39:06.587Z] [unzip] Processing entry: client\assets\provider-icons\
+[debug] [2024-03-04T06:39:06.587Z] [unzip] mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\
+[debug] [2024-03-04T06:39:06.587Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2024-03-04T06:39:06.588Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2024-03-04T06:39:06.588Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.588Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2024-03-04T06:39:06.589Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2024-03-04T06:39:06.589Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2024-03-04T06:39:06.589Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.590Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2024-03-04T06:39:06.591Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2024-03-04T06:39:06.591Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_phone.svg
+[debug] [2024-03-04T06:39:06.591Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.591Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_phone.svg
+[debug] [2024-03-04T06:39:06.593Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2024-03-04T06:39:06.593Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_saml.svg
+[debug] [2024-03-04T06:39:06.593Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.594Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_saml.svg
+[debug] [2024-03-04T06:39:06.595Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2024-03-04T06:39:06.595Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2024-03-04T06:39:06.595Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.595Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2024-03-04T06:39:06.597Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2024-03-04T06:39:06.597Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2024-03-04T06:39:06.597Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.597Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2024-03-04T06:39:06.598Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2024-03-04T06:39:06.599Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2024-03-04T06:39:06.599Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.599Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2024-03-04T06:39:06.600Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2024-03-04T06:39:06.601Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_github.svg
+[debug] [2024-03-04T06:39:06.601Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.601Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_github.svg
+[debug] [2024-03-04T06:39:06.602Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2024-03-04T06:39:06.602Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_apple.svg
+[debug] [2024-03-04T06:39:06.603Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.603Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_apple.svg
+[debug] [2024-03-04T06:39:06.604Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2024-03-04T06:39:06.604Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_google.svg
+[debug] [2024-03-04T06:39:06.604Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.604Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_google.svg
+[debug] [2024-03-04T06:39:06.606Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2024-03-04T06:39:06.606Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_email.svg
+[debug] [2024-03-04T06:39:06.606Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.606Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_email.svg
+[debug] [2024-03-04T06:39:06.607Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2024-03-04T06:39:06.608Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2024-03-04T06:39:06.608Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.608Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2024-03-04T06:39:06.609Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2024-03-04T06:39:06.609Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2024-03-04T06:39:06.609Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2024-03-04T06:39:06.609Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2024-03-04T06:39:06.610Z] [unzip] Entry: client/assets/index.c2583d42.js.map (compressed_size=1778557 bytes, uncompressed_size=7961927 bytes)
+[debug] [2024-03-04T06:39:06.611Z] [unzip] Processing entry: client\assets\index.c2583d42.js.map
+[debug] [2024-03-04T06:39:06.611Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets
+[debug] [2024-03-04T06:39:06.611Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\index.c2583d42.js.map
+[debug] [2024-03-04T06:39:06.647Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-03-04T06:39:06.647Z] [unzip] Processing entry: client\assets\img\
+[debug] [2024-03-04T06:39:06.647Z] [unzip] mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\img\
+[debug] [2024-03-04T06:39:06.648Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2024-03-04T06:39:06.648Z] [unzip] Processing entry: client\assets\img\database.png
+[debug] [2024-03-04T06:39:06.648Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\img
+[debug] [2024-03-04T06:39:06.648Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\assets\img\database.png
+[debug] [2024-03-04T06:39:06.650Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=838 bytes, uncompressed_size=1504 bytes)
+[debug] [2024-03-04T06:39:06.650Z] [unzip] Processing entry: client\safari-pinned-tab.svg
+[debug] [2024-03-04T06:39:06.650Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.650Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\safari-pinned-tab.svg
+[debug] [2024-03-04T06:39:06.651Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=5406 bytes, uncompressed_size=5723 bytes)
+[debug] [2024-03-04T06:39:06.651Z] [unzip] Processing entry: client\mstile-150x150.png
+[debug] [2024-03-04T06:39:06.651Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.651Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\mstile-150x150.png
+[debug] [2024-03-04T06:39:06.652Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2024-03-04T06:39:06.652Z] [unzip] Processing entry: client\browserconfig.xml
+[debug] [2024-03-04T06:39:06.652Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.652Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\browserconfig.xml
+[debug] [2024-03-04T06:39:06.654Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2024-03-04T06:39:06.654Z] [unzip] Processing entry: client\robots.txt
+[debug] [2024-03-04T06:39:06.654Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.654Z] [unzip] Writing file: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\robots.txt
+[debug] [2024-03-04T06:39:06.655Z] [unzip] Entry: client/index.html (compressed_size=1363 bytes, uncompressed_size=3064 bytes)
+[debug] [2024-03-04T06:39:06.655Z] [unzip] Processing entry: client\index.html
+[debug] [2024-03-04T06:39:06.655Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.655Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\index.html
+[debug] [2024-03-04T06:39:06.656Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=757 bytes, uncompressed_size=777 bytes)
+[debug] [2024-03-04T06:39:06.656Z] [unzip] Processing entry: client\favicon-16x16.png
+[debug] [2024-03-04T06:39:06.656Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.657Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\favicon-16x16.png
+[debug] [2024-03-04T06:39:06.657Z] [unzip] Entry: client/manifest.json (compressed_size=246 bytes, uncompressed_size=551 bytes)
+[debug] [2024-03-04T06:39:06.658Z] [unzip] Processing entry: client\manifest.json
+[debug] [2024-03-04T06:39:06.658Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.658Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\manifest.json
+[debug] [2024-03-04T06:39:06.659Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=1175 bytes, uncompressed_size=1175 bytes)
+[debug] [2024-03-04T06:39:06.659Z] [unzip] Processing entry: client\favicon-32x32.png
+[debug] [2024-03-04T06:39:06.659Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.659Z] [unzip] Writing file: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\favicon-32x32.png
+[debug] [2024-03-04T06:39:06.660Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=7602 bytes, uncompressed_size=7834 bytes)
+[debug] [2024-03-04T06:39:06.660Z] [unzip] Processing entry: client\android-chrome-192x192.png
+[debug] [2024-03-04T06:39:06.660Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2024-03-04T06:39:06.660Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\client\android-chrome-192x192.png
+[debug] [2024-03-04T06:39:06.661Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-03-04T06:39:06.661Z] [unzip] Processing entry: server\
+[debug] [2024-03-04T06:39:06.661Z] [unzip] mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\server\
+[debug] [2024-03-04T06:39:06.661Z] [unzip] Entry: server/server.js (compressed_size=343746 bytes, uncompressed_size=1346374 bytes)
+[debug] [2024-03-04T06:39:06.662Z] [unzip] Processing entry: server\server.js
+[debug] [2024-03-04T06:39:06.662Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\server
+[debug] [2024-03-04T06:39:06.662Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\server\server.js
+[debug] [2024-03-04T06:39:06.669Z] [unzip] Entry: server/server.js.map (compressed_size=289157 bytes, uncompressed_size=1325651 bytes)
+[debug] [2024-03-04T06:39:06.669Z] [unzip] Processing entry: server\server.js.map
+[debug] [2024-03-04T06:39:06.669Z] [unzip] else mkdir: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\server
+[debug] [2024-03-04T06:39:06.670Z] [unzip] deflating: C:\Users\hoshi\.cache\firebase\emulators\ui-v1.11.7\server\server.js.map
+[debug] [2024-03-04T06:39:06.677Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-04T06:39:06.677Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-04T06:39:06.677Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\hoshi\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\hoshi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-04T06:39:06.838Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-03-04T06:39:06.839Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-04T10:48:41.664Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T10:48:41.667Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hoshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-04T10:48:41.668Z] CLI Version:   13.4.0
+[debug] [2024-03-04T10:48:41.668Z] Platform:      win32
+[debug] [2024-03-04T10:48:41.669Z] Node Version:  v20.11.0
+[debug] [2024-03-04T10:48:41.669Z] Time:          Mon Mar 04 2024 16:18:41 GMT+0530 (India Standard Time)
+[debug] [2024-03-04T10:48:41.669Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T10:48:41.797Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] Failed to authenticate, have you run firebase login?
+[warn] !  emulators: You are not currently authenticated so some features may not work correctly. Please run firebase login to authenticate the CLI. 
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-04T10:48:41.865Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-04T10:48:41.866Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2024-03-04T10:48:41.867Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hospital-management-5a1db. This may result in unexpected behavior. 
+[debug] [2024-03-04T10:48:41.874Z] [hub] writing locator at C:\Users\hoshi\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[debug] [2024-03-04T10:48:51.547Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-04T10:48:51.548Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-04T10:48:51.548Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\hoshi\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\hoshi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-04T10:48:51.739Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2024-03-04T10:48:51.740Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4001/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-05T03:01:29.166Z] ----------------------------------------------------------------------
+[debug] [2024-03-05T03:01:29.170Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\bytes corner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-05T03:01:29.171Z] CLI Version:   13.4.0
+[debug] [2024-03-05T03:01:29.171Z] Platform:      win32
+[debug] [2024-03-05T03:01:29.171Z] Node Version:  v20.11.0
+[debug] [2024-03-05T03:01:29.171Z] Time:          Tue Mar 05 2024 08:31:29 GMT+0530 (India Standard Time)
+[debug] [2024-03-05T03:01:29.172Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-05T03:01:29.354Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-05T03:01:29.354Z] > authorizing via signed-in user (thisurathemiya@gmail.com)
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-05T03:01:29.371Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-05T03:01:29.372Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-05T03:01:29.372Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hospital-management-5a1db. This may result in unexpected behavior. 
+[debug] [2024-03-05T03:01:29.381Z] [hub] writing locator at C:\Users\BYTESC~1\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[debug] [2024-03-05T03:01:38.842Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-05T03:01:38.844Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-05T03:01:38.849Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\bytes corner\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\bytes corner\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-05T03:01:39.915Z] Web / API server started at 127.0.0.1:4000
+Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\nWeb / API server started at ::1:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-05T03:28:20.067Z] ----------------------------------------------------------------------
+[debug] [2024-03-05T03:28:20.072Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\bytes corner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only auth
+[debug] [2024-03-05T03:28:20.072Z] CLI Version:   13.4.0
+[debug] [2024-03-05T03:28:20.073Z] Platform:      win32
+[debug] [2024-03-05T03:28:20.073Z] Node Version:  v20.11.0
+[debug] [2024-03-05T03:28:20.073Z] Time:          Tue Mar 05 2024 08:58:20 GMT+0530 (India Standard Time)
+[debug] [2024-03-05T03:28:20.073Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-05T03:28:20.250Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-05T03:28:20.251Z] > authorizing via signed-in user (thisurathemiya@gmail.com)
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2024-03-05T03:28:20.266Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-05T03:28:20.266Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2024-03-05T03:28:20.268Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hospital-management-5a1db. This may result in unexpected behavior. 
+[debug] [2024-03-05T03:28:20.275Z] [hub] writing locator at C:\Users\BYTESC~1\AppData\Local\Temp\hub-hospital-management-5a1db.json
+[debug] [2024-03-05T03:28:29.776Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-05T03:28:29.777Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-05T03:28:29.777Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\bytes corner\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\bytes corner\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-05T03:28:30.482Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2024-03-05T03:28:30.482Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4001/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-05T03:46:54.667Z] Received signal SIGHUP 1
