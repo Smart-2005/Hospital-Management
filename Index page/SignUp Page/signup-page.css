@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+    background-color: #fadaed;
+}
+
+/* nav bar */
+
+.nav-bar{
+    background-color: #ffe8f5;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+position: absolute;
+top: 0;
+
+
+}
+.nav-bar-buttons{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-button{
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    border: 0;
+    background-color: #ffe8f5;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-button:hover{
+    background-color:#ff279a;
+}
+
+/* signup page */
+
+.signup-page{
+    border-right: 2px solid black;
+    display: flex;
+    width: 65%;
+    height: 95vh;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  
+}
+.signup-img{
+    width: 50%;
+    height: 95vh;
+  
+ 
+}
+.doc-signup-img{
+    border-left: 2px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+.signup-card{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.signup-card-buttons{
+    width: 100%;
+    height: 30px;
+    display: flex;   
+}
+.patient-signup-card-button{
+    background-color: white;
+    width: 50%;
+    border: 1px solid rgb(182, 187, 187);
+    border-top-right-radius: 20px;
+}
+
+.doc-signup-card-button{
+    
+    background-color: white;
+    width: 50%;
+    border: 1px solid rgb(182, 187, 187);
+}
+
+.patient-signup-card-button:out(:focus){
+    border: 1.5px solid rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 2;
+    border-bottom: 0;
+} 
+.doc-signup-card-button:focus,.patient-signup-card-button:focus{
+    opacity: 1;
+    z-index: 2;
+    border-bottom: 0;
+    border-left: 0;
+
+}
+.doc-signup-card-button:focus{
+    background-color: #E1AFD1;
+    box-shadow: 1px -1px 3px -1px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 1px -1px 3px -1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 1px -1px 3px -1px rgba(0,0,0,0.48);
+}
+.patient-signup-card-button:focus{
+    border-right: 0;
+    background-color: #E1AFD1;
+    box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.48);
+    -webkit-box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.48);
+    -moz-box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.48);
+}
+
+/* Doctor signup */
+
+.doc-signup-form-bg{
+    width: 100%;
+    height: 95.5%;
+    display: flex;
+    justify-content: center;
+    background-color:  #E1AFD1;
+    border-bottom-right-radius: 20px;
+}
+.doc{
+
+    z-index: 1;
+    position: relative;
+    top: 15px;
+    display: none ;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 550px;
+    border-radius: 30px;
+    background-color: rgb(255, 240, 253);
+    box-shadow: 0px 4px 15px -1px rgba(255, 0, 255, 0.45);
+    -webkit-box-shadow: 0px 4px 15px -1px rgba(234, 0, 255, 0.45);
+    -moz-box-shadow: 0px 4px 15px -1px rgba(183, 0, 255, 0.45);
+}
+.signup-form-header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black ;
+
+}
+
+.signup-form-lables{
+    font-size: 14px;
+}
+.doc-signup-details{
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.doc-signup-personal-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.docform-body{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.doc-form-details{
+    width: 85%;
+    height: 33px;
+}
+
+.signup-form-button{
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+
+}
+.doc-login-account{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    position: relative;
+top: 10px;
+
+}
+
+/* Patient signup */
+
+.patient-signup-form-bg{
+
+    position: relative;
+    bottom: 588.5px;
+    width: 100%;
+    height: 95.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E1AFD1;
+    border-bottom-right-radius: 20px;
+} 
+.patient{
+
+    display: none ;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 550px;
+    border-radius: 30px;
+    background-color: rgb(255, 240, 253);
+    box-shadow: 0px 4px 15px -1px rgba(255, 0, 255, 0.45);
+    -webkit-box-shadow: 0px 4px 15px -1px rgba(234, 0, 255, 0.45);
+    -moz-box-shadow: 0px 4px 15px -1px rgba(183, 0, 255, 0.45);
+}
+.patient-signup-header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.patient-form-lables{
+    font-size: 14px;
+}
+.patient-signup-details{
+    position: relative;
+    bottom: 13px;
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+.patient-signup-personal-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.patientform-body{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.patient-form-details{
+    width: 85%;
+    height: 33px;
+}
+#docGender,#patientGender{
+    width: 85%;
+    height: 30px;
+}
+.signup-form-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+
+}
+.create-account{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    position:relative;
+    bottom: -10px;
+}
+
+/*============== toastr ==================
+
+
+/* Success notification */
+    .toast-success {
+        background-color: #458f4e;
+        color: #000000;
+    }
+    
+  /* Error notification */
+    .toast-error {
+        background-color: #970000;
+        color: #000000;
+    }
+  

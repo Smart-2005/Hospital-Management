@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="scheduled-appoinment-page.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduled Appoinments</title>
+</head>
+<body>
+
+    <div class="main-page">
+        <img style="width: 150px; height: 150px; position: relative; top: 20px; " src="diagnosis.png" alt="">
+        <div class="scheduled-appoinment-card">
+
+            <div class="appoinmnet-header">
+                <h2>Search Your Scheduled Appoinment</h2>
+            </div>
+
+
+            <div class="search-bar">
+                <input id="search-bar-input" class="search-bar-input" type="text"required>|<input id="searchBtn" class="searchBtn" type="submit" value="Search">
+            </div>
+
+            <div id="appoinment-body" class="appoinment-body">
+        
+                <div class="appoinment-label">
+
+                    <label for="channelingDoctor">Channeling Doctor <span>:</span></label>
+                    <label for="patientFullName">Patient Full Name  <span>:</span></label>
+                    <label for="patientAddress">Patient Address     <span>:</span></label>
+                    <label for="appoinmentDate">Apooinment Date     <span>:</span></label>
+                    <label for="appoinmentTime">Appoinment Time     <span>:</span></label>
+
+                </div>
+
+                <div class="appoinment-input">
+
+                    <input disabled id="channelingDoctor" class="channelingDoctor" class="channelingDoctor" type="text">
+                    <input disabled id="patientFullName" class="patientFullName" type="text">
+                    <input disabled id="patientAddress"  class="patientAddress" type="text">
+                    <input disabled id="appoinmentDate" class="appoinmentDate" type="text">
+                    <input disabled id="appoinmentTime" class="appoinmentTime" type="text">
+                    
+                </div>
+  
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="module" src="scheduled-appoinment-page.js"></script>
+</body>
+</html>

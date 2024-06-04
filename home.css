@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-page{
+    width: 100%;
+    height: 250vh;
+    background-color: #fff3fa;
+
+}
+
+    /*=== Nav Bar ===*/
+.nav-bar{
+    background-color: #ffe8f5;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.nav-bar-buttons{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-button{
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    border: 0;
+    background-color: #ffe8f5;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-button:hover{
+    background-color:#ff279a;
+}
+.nav-bar-account{
+    background-color: bisque; 
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    position: absolute;
+    right: 25px;
+    border: 1px solid black;
+}
+#user-account{
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+}
+
+.user-account-body{
+    background-color: #ffe0f1;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+.user-account-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.user-account-img{
+    background-color: bisque; 
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: 0;
+    border-radius:50%;
+}
+.img-input{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    outline: 0;
+    border-radius:50%;
+}
+.user-account-data{
+    width: 90%;
+    height:30px;
+}
+
+
+    /*=== Main-img ===*/
+
+.main-page-content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+
+
+}
+.main-img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+    /*=== Main Display content ===*/
+
+.content1{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+} 
+.text-content{
+    padding: 30px;
+    width: 100%;
+    height: 80vh;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+
+}
+.text-content-header{
+    font-size: 30px;
+    width: 100%;
+    height: 80px;
+
+}
+.text-content-header>p{
+    font-weight: 700;
+    color: rgb(70, 70, 255);
+}
+.text-content-body{
+    font-size: 16px;
+    width: 90%;
+    height: auto;
+
+}
+
+
+
+    /*=== Appoinments Area ===*/
+
+.appoinment-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}
+.appoinment-header{
+    position: relative;
+    bottom: 25px;
+    font-size: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.appoinment-content{
+    position: relative;
+    bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appoinment-button{
+    position: relative;
+    bottom: 35px;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.book-appoinment{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    padding: 0;
+    margin-top: -30px;
+    position:fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+.signup-form{
+    border: 1px solid rgb(0, 0, 0);
+    position:fixed;
+    width: 40%;
+    height: 96%;
+    background-color:rgb(255, 234, 252);
+    display: block ;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    
+
+
+}
+.signup-form-content{
+    z-index: 1; /* Sit on top */
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 0.5px solid rgb(65, 65, 65);
+}
+.signup-form-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.signup-form-img{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.uploadFile{
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ffe8f5;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.signup-form-details{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.form-details{
+    width: 85%;
+    height: 35px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.signup-form-lables{
+    font-size: 14px;
+    position: relative;
+    right: 190px;
+}
+.signup-form-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+}
+.content2{
+    width: 99%;
+    display: flex;
+    height: 75vh;
+    margin-left:10px;
+    margin-right:10px;
+}
+.content2-img{
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 75vh;
+
+}
+.content2-img>img{
+    width: 65%;
+    height: 100%;
+}
+.content2-content{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    width: 60%;
+    height: 75vh;
+ 
+}
+.content2-body{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    width: 100%;
+    height: 75vh;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 150px;
+    background-color: rgb(255, 118, 118);
+    opacity: 0.2;
+    border: 0.1px solid rgb(0, 0, 0);
+
+}
+.content2-body2{
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    width: 80%;
+    height: 75vh;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 150px;
+    background-color: rgb(255, 0, 255);
+    opacity: 0.3;
+    border: 0.1px solid rgb(0, 0, 0);
+
+
+}
+.content2-body3{
+    position: absolute;
+    right: 30px;
+    z-index: 3;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    width: 50%;
+    height: 60vh;
+    background-color:transparent;
+    color: #000000;
+    border-left-color: #000000;
+    border-left-style: ridge;
+    border-right-color: #000000;
+    border-right-style: ridge;
+}
+
+.content2-body3>p{
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-color: #fff3fe;
+}
+.footer-socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+
+}
+.footer-socialmedia-icon{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.socialmedia-icon{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    color: gray;
+    padding-bottom: 5px;
+
+}
+
+.intagram{
+    width: 58px;
+    height: 58px;
+    padding-bottom: 2px;
+}
+.socialmedia-icon:hover{
+    filter: saturate(2) brightness(1.5);
+    /* animation: border-bottom-aniamtion 5s linear infinite; */
+}
+/* .border-bottom{
+    background-color: #00eeff;
+    width: 80px;
+    height: 5px;
+} */
+.footer-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+
+
+}
+.footer-company-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 70%;
+    height: 10vh;
+}
+.compnay-content-body{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.compnay-content-body:hover{
+    color: #ff279a;
+    filter: saturate(5) contrast(5);
+    
+}
+.footer-copyright{
+    width: 100%;
+    height: 10vh;
+
+}
+.footer-copyright-body{
+    width: 60;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}

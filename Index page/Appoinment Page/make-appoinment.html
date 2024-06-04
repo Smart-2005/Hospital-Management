@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="make-appoinment.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    
+    <title>Make a Appoinment</title>
+</head>
+
+<body>
+    <div class="main-page">
+        <div class="appoinment-img">
+            <img class="hospital-logo" src="medical-team.png" alt="">
+        </div>
+        <div class="appoinment-content">
+            <div class="appoinment-header">
+                <h2>Make an Appoinment</h2>
+            </div>
+            <div id="patient-form" class="patient-form">
+
+                <select class="dropdown" id="dropdown" required> </select>
+
+                <input id="patientFullName" placeholder="Enter Your Full Name" class="patient-detail" type="text" required>
+                <input id="patientAddress"placeholder="Enter Your Addres" class="patient-detail" type="text" required>
+                <input id="appoinmentDate"placeholder="Select Date" class="patient-detail" type="date" required>
+                <input id="appoinmentTime"placeholder="Select Time" class="patient-detail" type="time" required>
+
+            </div>
+            <div class="book-appoinment" >
+                <button id="bookAppoinmentBtn" class="book-appoinment-btn">Book a Appoinment</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="module" src="make-appoinment.js"></script>
+</body>
+</html>

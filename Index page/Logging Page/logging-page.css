@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(248, 199, 244);
+}
+
+/* nav bar */
+
+.nav-bar{
+    background-color: #ffe8f5;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+
+
+}
+.nav-bar-buttons{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-button{
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    border: 0;
+    background-color: #ffe8f5;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-button:hover{
+    background-color:#ff279a;
+}
+
+/* loging page  */
+
+.loging-page{
+    display: flex;
+    width: 65%;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  
+}
+.loging-img{
+    width: 50%;
+    height: 70vh;
+  
+ 
+}
+.doc-loging-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+.loging-card{
+    width: 50%;
+    height: 70vh;
+    border-radius: 20px;
+    border: 1.5px solid rgb(182, 187, 187);
+    background-color: white;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.loging-card-buttons{
+    width: 100%;
+    height: 30px;
+    display: flex;   
+}
+.patient-logging-card-button{
+    background-color: white;
+    width: 50%;
+    border: 1px solid rgb(182, 187, 187);
+    border-top-right-radius: 20px;
+}
+
+.doc-logging-card-button{
+    background-color: white;
+    width: 50%;
+    border: 1px solid rgb(182, 187, 187);
+}
+
+.patient-logging-card-button:out(:focus){
+    border: 1.5px solid rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 2;
+    border-bottom: 0;
+} 
+.doc-logging-card-button:focus,.patient-logging-card-button:focus{
+    opacity: 1;
+    z-index: 2;
+    border-bottom: 0;
+    border-left: 0;
+
+}
+.doc-logging-card-button:focus{
+    background-color: #E1AFD1;
+    box-shadow: 1px -1px 3px -1px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 1px -1px 3px -1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 1px -1px 3px -1px rgba(0,0,0,0.48);
+}
+.patient-logging-card-button:focus{
+    border-right: 0;
+    background-color: #E1AFD1;
+    box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.48);
+    -webkit-box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.48);
+    -moz-box-shadow: -1px -1px 3px -1px rgba(0,0,0,0.48);
+}
+
+/* Doctor Loging */
+
+.doc-loging-form-bg{
+    width: 100%;
+    height: 93.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E1AFD1;
+    border-bottom-right-radius: 20px;
+}
+.doc{
+    z-index: 1;
+    display: none ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: rgb(255, 240, 253);
+    box-shadow: 0px 4px 15px -1px rgba(255, 0, 255, 0.45);
+    -webkit-box-shadow: 0px 4px 15px -1px rgba(234, 0, 255, 0.45);
+    -moz-box-shadow: 0px 4px 15px -1px rgba(183, 0, 255, 0.45);
+}
+
+.loging-form-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+
+
+
+}
+.loging-form-lables{
+    font-size: 14px;
+}
+.doc-loging-details{
+    width: 100%;
+    height: 90%;
+
+    flex-direction: column;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.doc-logging-personal-details{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.form-details{
+    width: 85%;
+    height: 30px;
+}
+.loging-form-button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+.create-account{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    bottom: 30px;
+
+}
+
+/* Patient Loging */
+
+.patient-loging-form-bg{
+    position: relative;
+    bottom: 421px;
+    width: 100%;
+    height: 93.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E1AFD1;
+    border-bottom-right-radius: 20px;
+}
+.patientLoging{
+
+    display: none ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: rgb(255, 240, 253);
+    box-shadow: 0px 4px 15px -1px rgba(255, 0, 255, 0.45);
+    -webkit-box-shadow: 0px 4px 15px -1px rgba(234, 0, 255, 0.45);
+    -moz-box-shadow: 0px 4px 15px -1px rgba(183, 0, 255, 0.45);
+}
+
+.patient-form-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+
+
+
+}
+.patient-form-lables{
+    font-size: 14px;
+}
+.patient-loging-details{
+    width: 100%;
+    height: 90%;
+
+    flex-direction: column;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.patient-logging-personal-details{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.form-details{
+    width: 85%;
+    height: 30px;
+}
+.loging-form-button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+.create-account{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    bottom: 30px;
+
+}
+/*============== toastr ==================
+
+
+/* Success notification */
+.toast-success {
+    position: absolute;
+        background-color: #458f4e;
+    color: #000000;
+}
+
+/* Error notification */
+.toast-error {
+    background-color: #970000;
+    color: #000000;
+}
